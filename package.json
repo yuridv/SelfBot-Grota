@@ -1,0 +1,42 @@
+{
+  "name": "selfbot-grota",
+  "description": "A simple log management selfbot built to meet customer needs.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "clear && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuridv/selfbot-grota.git"
+  },
+  "keywords": [
+    "node",
+    "bot",
+    "discord",
+    "manage",
+    "rp",
+    "logs",
+    "roles",
+    "channels",
+    "logs"
+  ],
+  "author": "Yuri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuridv/selfbot-grota/issues"
+  },
+  "homepage": "https://github.com/yuridv/selfbot-grota#readme",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.7.0",
+    "dotenv-safe": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "nodemon": "^3.1.10"
+  }
+}
