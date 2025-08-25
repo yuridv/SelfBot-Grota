@@ -8,7 +8,7 @@ const event = (client) => {
     client.user.setPresence({
       status: 'online',
       activities: [ {
-        name: 'Em Construção...',
+        name: 'Created by MrDragon',
         type: 'STREAMING',
         url: 'https://twitch.tv/mrdragonzin'
       } ]
