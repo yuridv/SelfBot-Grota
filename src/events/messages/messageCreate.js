@@ -8,8 +8,8 @@ const event = (client, message) => {
     if (message.author.id === config.developer && message.content === '!status') {
       return message.channel.send('> **Status:**\n・ *__ONLINE__*');
     }
-
-    if (message.author.id === config.bot_city && message.embeds && message.embeds[0]) {
+    
+    if ((message.channel.id === config.channel_logs_leader || message.channel.id === config.channel_logs_member) && message.embeds && message.embeds[0]) {
       const webhook = new WebhookClient({ url: config.webhook_log_chest });
 
       webhook.send({
