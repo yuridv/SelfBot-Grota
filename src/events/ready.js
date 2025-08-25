@@ -6,7 +6,7 @@ const event = (client) => {
     console.log(colors.GREEN + colors.BOLD + '[Discord]=> Started successfully!' + colors.RESET);
 
     client.user.setPresence({
-      status: 'online',
+      status: 'dnd',
       activities: [ {
         name: 'Created by MrDragon',
         type: 'STREAMING',
