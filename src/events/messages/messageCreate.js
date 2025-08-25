@@ -1,7 +1,7 @@
 const { Errors } = require('../../utils/functions');
 const config = require('../../../config.json');
 
-const { WebhookClient, EmbedBuilder } = require('discord.js');
+const { WebhookClient } = require('discord.js');
 
 const event = async(client, message) => {
   try {
